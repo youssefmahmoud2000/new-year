@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    text-transform: capitalize;
+}
+.h1_header{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 600;
+    
+}
+.newYear{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border: 3px solid ;
+    border-color:red blue green yellow;
+    width: 60%;
+    margin:  10px auto;
+    background: linear-gradient(125deg,red, blue, green, yellow );
+   animation: bganinimation 1.5s infinite;
+   transition: all 0.5s linear;
+}
+@keyframes bganinimation{
+    0%{
+        background-position: 0% 30%;
+    }
+    30%{
+        background-position: 30% 60%;
+    }
+    60%{
+        background-position: 60% 90%;
+    }
+}
+.photos{
+    margin-top: 10px;
+margin-bottom: 10px;
+text-align: center;
+}
+.photos h1{
+
+    color: darkgoldenrod;
+    margin-bottom: 5px;
+}
+.counter{
+
+    display: flex;
+    flex-direction: column;
+    margin-top: 150px;
+}
+.counter span{
+    margin-top: 210px;
+}
+.counteer{
+    font-size: 30px;
+    color: red;
+}
+h3{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 20px;
+}
